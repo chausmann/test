@@ -43,6 +43,30 @@
         <rootform>Start</rootform>
       </controller>
     </view>
+    <view id="NewScreen">
+      <controller id="fa758757-45ab-49e1-a089-3fca849c5fd8" name="NewScreen">
+        <viewname>NewScreen</viewname>
+        <fieldtype>normalcontroller</fieldtype>
+        <transparency>false</transparency>
+        <z>0</z>
+        <name>NewScreen</name>
+        <tabbarsystemitem>none</tabbarsystemitem>
+        <interfaceorientation>portrait</interfaceorientation>
+        <x>0</x>
+        <y>0</y>
+        <width>320</width>
+        <height>416</height>
+        <anchor>
+          <top>true</top>
+          <right>true</right>
+          <bottom>true</bottom>
+          <left>true</left>
+          <flexheight>true</flexheight>
+          <flexwidth>true</flexwidth>
+        </anchor>
+        <backgroundcolor>0xffffffff</backgroundcolor>
+      </controller>
+    </view>
     <view id="Start">
       <controller id="1172d1ee-f7ff-492b-9530-cd6a0e729265" name="Start">
         <viewname>Start</viewname>
@@ -162,6 +186,7 @@ VIEWCONTROLLERTYPE.SPLITVIEWCONTROLLER="splitviewcontroller";
 VIEWCONTROLLERTYPE.TABCONTROLLER="tabcontroller";
 Screens = {};
 Screens.NavigationController = "NavigationController";
+Screens.NewScreen = "NewScreen";
 Screens.Start = "Start";
 function DataModel(){};
 var Data=new DataModel();var mobileController = plugins.iBizClientWebService.getMobileController();

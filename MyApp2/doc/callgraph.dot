@@ -1,2 +1,2 @@
 digraph test {NavigationController [shape=box,label=<NavigationController<br/>null>];NavigationController->Start [label="subview",color=grey] 
-;Start [shape=box,label=<Start<br/>null>];}
+;NewScreen [shape=box,label=<NewScreen<br/>null>];Start [shape=box,label=<Start<br/>null>];}
