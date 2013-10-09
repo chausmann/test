@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.weptun.appconkit.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.weptun.appconkit.model="http://com.weptun.appconkit.model.application" xmlns:view="http://com.weptun.appconkit.model.view" name="phone">
+  <viewScope>
+    <supportedDeviceClasses>PHONE</supportedDeviceClasses>
+    <supportedDeviceClasses>TABLET</supportedDeviceClasses>
+  </viewScope>
+  <controller xsi:type="view:NavigationController" beanUUID="5cf20fc1-ece1-4ac3-8cd7-5d5de55867e2" fieldtype="navigationcontroller" name="NavigationController">
+    <location/>
+    <size height="416" width="320"/>
+    <anchor right="true" bottom="true" flexheight="true" flexwidth="true"/>
+    <backgroundcolor red="255" green="255" blue="255"/>
+    <rootForm screenName="Start"/>
+  </controller>
+</com.weptun.appconkit.model:View>

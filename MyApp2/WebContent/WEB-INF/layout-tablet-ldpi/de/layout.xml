@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ibiz>
+  <layout id="30d9f4d1-969e-4774-8652-f93de2ca49c9">
+    <graphicsquality>ldpi</graphicsquality>
+    <defaultlanguage>en</defaultlanguage>
+    <applicationbackgroundcolor>0x000000ff</applicationbackgroundcolor>
+    <appname>MyApp2</appname>
+    <id>c3967942-1cad-4aa0-b991-ba1ae946fbb4</id>
+    <fieldtype>application</fieldtype>
+    <transparency>false</transparency>
+    <z>0</z>
+    <name>pd37cd9</name>
+    <statusbarstyle>default</statusbarstyle>
+    <applicationuuid>30d9f4d1-969e-4774-8652-f93de2ca49c9</applicationuuid>
+    <enablemirroring>false</enablemirroring>
+    <defaultinterfaceorientation>portrait</defaultinterfaceorientation>
+    <appversion>1.0</appversion>
+    <startview>NavigationController</startview>
+    <view id="NavigationController">
+      <controller id="5cf20fc1-ece1-4ac3-8cd7-5d5de55867e2" name="NavigationController">
+        <viewname>NavigationController</viewname>
+        <fieldtype>navigationcontroller</fieldtype>
+        <transparency>false</transparency>
+        <z>0</z>
+        <name>NavigationController</name>
+        <tabbarsystemitem>none</tabbarsystemitem>
+        <interfaceorientation>portrait</interfaceorientation>
+        <barstyle>default</barstyle>
+        <x>0</x>
+        <y>0</y>
+        <width>320</width>
+        <height>416</height>
+        <anchor>
+          <top>true</top>
+          <right>true</right>
+          <bottom>true</bottom>
+          <left>true</left>
+          <flexheight>true</flexheight>
+          <flexwidth>true</flexwidth>
+        </anchor>
+        <backgroundcolor>0xffffffff</backgroundcolor>
+        <rootform>Start</rootform>
+      </controller>
+    </view>
+    <view id="Start">
+      <controller id="1172d1ee-f7ff-492b-9530-cd6a0e729265" name="Start">
+        <viewname>Start</viewname>
+        <fieldtype>normalcontroller</fieldtype>
+        <transparency>false</transparency>
+        <z>0</z>
+        <name>Start</name>
+        <tabbarsystemitem>none</tabbarsystemitem>
+        <interfaceorientation>portrait</interfaceorientation>
+        <x>0</x>
+        <y>0</y>
+        <width>320</width>
+        <height>416</height>
+        <anchor>
+          <top>true</top>
+          <right>true</right>
+          <bottom>true</bottom>
+          <left>true</left>
+          <flexheight>true</flexheight>
+          <flexwidth>true</flexwidth>
+        </anchor>
+        <backgroundcolor>0xffffffff</backgroundcolor>
+      </controller>
+    </view>
+  </layout>
+  <model/>
+  <scripts>
+    <script name="CONSTANTS"><![CDATA[var ADDRESSTYPE={};
+ADDRESSTYPE.PRIVATE="PRIVATE";
+ADDRESSTYPE.WORK="WORK";
+ADDRESSTYPE.OTHER="OTHER";
+var CALLPROTOCOL={};
+CALLPROTOCOL.WEPXML="wepxml";
+CALLPROTOCOL.JSONRPC="jsonrpc";
+var COMPRESSIONFORMAT={};
+COMPRESSIONFORMAT.JPG="JPG";
+COMPRESSIONFORMAT.PNG="PNG";
+var CONNECTIONSTATUS={};
+CONNECTIONSTATUS.ACTIVE="active";
+CONNECTIONSTATUS.WAITING="waiting";
+CONNECTIONSTATUS.FINISHED="finished";
+CONNECTIONSTATUS.FAILED="failed";
+CONNECTIONSTATUS.UNKNOWN="unknown";
+var CONTENTENCODING={};
+CONTENTENCODING.GZIP="gzip";
+CONTENTENCODING.ZIP="zip";
+CONTENTENCODING.IDENTITY="identity";
+var CONTENTMODE={};
+CONTENTMODE.COMPLETFOUNDSET="completefoundset";
+CONTENTMODE.ALLKEYS="allkeys";
+CONTENTMODE.SELECTEDRECORD="selectedrecord";
+CONTENTMODE.SELECTEDKEYS="selectedkeys";
+CONTENTMODE.EMPTY="empty";
+var DATEFORMATPATTERNS={};
+DATEFORMATPATTERNS.ISO_8601_LVL1_PATTERN="yyyy";
+DATEFORMATPATTERNS.ISO_8601_LVL2_PATTERN="yyyy-MM";
+DATEFORMATPATTERNS.ISO_8601_LVL3_PATTERN="yyyy-MM-dd";
+DATEFORMATPATTERNS.ISO_8601_LVL4_PATTERN="yyyy-MM-dd'T'HH:mmZ";
+DATEFORMATPATTERNS.ISO_8601_LVL5_PATTERN="yyyy-MM-dd'T'HH:mm:ssZ";
+DATEFORMATPATTERNS.ISO_8601_LVL6_PATTERN="yyyy-MM-dd'T'HH:mm:ss.SSSZ";
+DATEFORMATPATTERNS.DEFAULT_PATTERN="yyyy-MM-dd'T'HH:mm:ss.SSSZ";
+var EMAILADDRESSTYPE={};
+EMAILADDRESSTYPE.PRIVATE="PRIVATE";
+EMAILADDRESSTYPE.WORK="WORK";
+EMAILADDRESSTYPE.OTHER="OTHER";
+var FACEBOOKSTATUS={};
+FACEBOOKSTATUS.SUCCESS="SUCCESS";
+FACEBOOKSTATUS.CANCELED="CANCELED";
+FACEBOOKSTATUS.FAILED="FAILED";
+var HTTPMethod={};
+HTTPMethod.GET="get";
+HTTPMethod.POST="post";
+HTTPMethod.PUT="put";
+HTTPMethod.DELETE="delete";
+var NETWORKSTATE={};
+NETWORKSTATE.OFFLINE="offline";
+NETWORKSTATE.MOBILE="mobile";
+NETWORKSTATE.WIFI="wifi";
+NETWORKSTATE.UNKNOWN="unkown";
+var PHONENUMBERTYPE={};
+PHONENUMBERTYPE.MOBILE="MOBILE";
+PHONENUMBERTYPE.PRIVATE="PRIVATE";
+PHONENUMBERTYPE.WORK="WORK";
+PHONENUMBERTYPE.FAX="FAX";
+PHONENUMBERTYPE.OTHER="OTHER";
+var POPOVERARROWDIRECTION={};
+POPOVERARROWDIRECTION.ANY="any";
+POPOVERARROWDIRECTION.UP="up";
+POPOVERARROWDIRECTION.DOWN="down";
+POPOVERARROWDIRECTION.LEFT="left";
+POPOVERARROWDIRECTION.RIGHT="right";
+var PRESENTATIONSTYLE={};
+PRESENTATIONSTYLE.FULLSCREEN="fullscreen";
+PRESENTATIONSTYLE.PAGESHEET="pagesheet";
+PRESENTATIONSTYLE.FORMSHEET="formsheet";
+PRESENTATIONSTYLE.CURRENTCONTEXT="currentcontext";
+var PRIORITY={};
+PRIORITY.VERYLOW="verylow";
+PRIORITY.LOW="low";
+PRIORITY.NORMAL="normal";
+PRIORITY.HIGH="high";
+PRIORITY.VERYHIGH="veryhigh";
+var TRANSITIONSTYLE={};
+TRANSITIONSTYLE.COVERVERTICAL="coververtical";
+TRANSITIONSTYLE.FLIPHORIZONTAL="fliphoriziontal";
+TRANSITIONSTYLE.CROSSDISSOLVE="crossdissolve";
+TRANSITIONSTYLE.PARTIALCURL="partialcurl";
+var VIEWCOMPONENTTYPE={};
+VIEWCOMPONENTTYPE.WEBVIEW="webview";
+VIEWCOMPONENTTYPE.LABEL="label";
+VIEWCOMPONENTTYPE.MOVIEPLAYER="movieplayer";
+var VIEWCONTROLLERTYPE={};
+VIEWCONTROLLERTYPE.VIEWCONTROLLER="viewcontroller";
+VIEWCONTROLLERTYPE.MULTIVIEWCONTROLLER="multiviewcontroller";
+VIEWCONTROLLERTYPE.NAVIGATIONCONTROLLER="navigationcontroller";
+VIEWCONTROLLERTYPE.SPLITVIEWCONTROLLER="splitviewcontroller";
+VIEWCONTROLLERTYPE.TABCONTROLLER="tabcontroller";
+Screens = {};
+Screens.NavigationController = "NavigationController";
+Screens.Start = "Start";
+function DataModel(){};
+var Data=new DataModel();var mobileController = plugins.iBizClientWebService.getMobileController();
+var logger = mobileController.logger();
+]]></script>
+    <script name="scopes"><![CDATA[function globals(){
+}
+var scopes={};
+scopes.globals=new globals();
+var globals=new globals();
+globals.globals=globals;
+globals.scopes=scopes;
+]]></script>
+  </scripts>
+</ibiz>

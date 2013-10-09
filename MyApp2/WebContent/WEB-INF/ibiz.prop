@@ -1,0 +1,49 @@
+uuid					= 30d9f4d1-969e-4774-8652-f93de2ca49c9
+lastupdate				= 2013-10-09
+defaultlanguage 		= de
+defaultplatform 		= phone
+defaultgraphicsquality 	= ldpi
+package					= com.appconkit.generated.myapp2
+persistenceunit			= com.appconkit.generated.myapp2
+
+#the admin password for the /admin web interface
+adminpassword			= 8nrvpphf
+
+#optional proxy for AppServer activation
+#activation_proxy_host	= 127.0.0.1
+#activation_proxy_port	= 8080
+
+#set this to false if you don't want to use JPA or
+#if you want to handle the EntityManagers etc yourself
+jpaenabled				= false
+
+#the following lines configure local logging
+#the logfile will be located in the application server's log directory
+logfilename				= com.appconkit.generated.myapp2
+#log level for file log, possible levels are: trace, debug, info, warn, error, fatal
+loglevel				= trace
+#log level for console log, possible levels are: trace, debug, info, warn, error, fatal
+consoleloglevel			= trace
+
+#uncomment the following lines to enable remote device logging.
+#these ports need to be free on the machine running this servlet.
+
+#the port the remote device connects to
+#devicelogport			= 4000
+
+#the port the remote UI connects to 
+#guilogport				= 4012
+
+#fully qualified class name of an implementation
+#of the iBizI18nProvider, if you don't want to use the default implementation
+#which reads the mappings from the WEB-INF/i18n.prop properties file
+#i18nprovider			= ibiz.webservice.analyzer.iBizI18nProvider
+
+#fully qualified class name of an implementation of the CredentialVerifier
+#which should be used for a custom login mechanism
+#credentialverifier		= ibiz.webservice.analyzer.CredentialVerifier
+
+#the following information is needed to enable push message support
+#android_api_key		= myandroidapikey
+#ios_cert_file			= WEB-INF/cert.p12
+#ios_cert_password		= mysecret

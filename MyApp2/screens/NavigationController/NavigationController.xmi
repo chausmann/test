@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.weptun.appconkit.model:Screen xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.weptun.appconkit.model="http://com.weptun.appconkit.model.application" name="NavigationController">
+  <mobileLogicFile name="NavigationController" jsFilePath="/screens/NavigationController/NavigationController.js"/>
+</com.weptun.appconkit.model:Screen>

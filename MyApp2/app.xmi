@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.weptun.appconkit.model:App xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.weptun.appconkit.model="http://com.weptun.appconkit.model.application" uuid="30d9f4d1-969e-4774-8652-f93de2ca49c9" name="MyApp2">
+  <globals>
+    <mobileLogicFile name="globals" jsFilePath="/globals.js"/>
+  </globals>
+  <settings beanUUID="c3967942-1cad-4aa0-b991-ba1ae946fbb4" fieldtype="application" name="pd37cd9" applicationUUID="30d9f4d1-969e-4774-8652-f93de2ca49c9">
+    <anchor/>
+    <PhoneFirstForm screenName="NavigationController"/>
+    <TabletFirstForm screenName="NavigationController"/>
+  </settings>
+  <serializerSettings/>
+  <localSettings/>
+</com.weptun.appconkit.model:App>

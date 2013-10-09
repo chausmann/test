@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.weptun.appconkit.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.weptun.appconkit.model="http://com.weptun.appconkit.model.application" name="phone">
+  <viewScope>
+    <supportedDeviceClasses>PHONE</supportedDeviceClasses>
+    <supportedDeviceClasses>TABLET</supportedDeviceClasses>
+  </viewScope>
+  <controller beanUUID="1172d1ee-f7ff-492b-9530-cd6a0e729265" fieldtype="normalcontroller" name="Start">
+    <location/>
+    <size height="416" width="320"/>
+    <anchor right="true" bottom="true" flexheight="true" flexwidth="true"/>
+    <backgroundcolor red="255" green="255" blue="255"/>
+  </controller>
+</com.weptun.appconkit.model:View>
